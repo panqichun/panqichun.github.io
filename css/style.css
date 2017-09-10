@@ -8,7 +8,9 @@ body {
 	color: #666;
 	background: #fff;
 }
-
+article{
+	font-size: 15px;
+}
 a {
 	color: #39f;
 	text-decoration: none;
@@ -337,7 +339,7 @@ header nav li span {
 }
 
 #banner_ctr li.first-item {
-	background: #fff;
+	background: #f2f2f2;
 	width: 20px;
 	-webkit-border-radius: 20px 0 0 20px;
 	-moz-border-radius: 20px 0 0 20px;
@@ -346,7 +348,7 @@ header nav li span {
 }
 
 #banner_ctr li.last-item {
-	background: #fff;
+	background: #f2f2f2;
 	width: 20px;
 	-webkit-border-radius: 0 20px 20px 0;
 	-moz-border-radius: 0 20px 20px 0;
@@ -1382,7 +1384,7 @@ footer {
 }
 
 #single #detailed {
-	line-height: 1.8;
+	/*line-height: 1.8;*/
 	text-align: justify;
 	color: #666;
 	padding: 20px 0;
@@ -1429,15 +1431,6 @@ footer {
 	left: 10px;
 	width: 180px;
 	height: 220px
-}
-
-.tit_pic span {
-	display: block;
-	background: url("images/serv_pic.png") no-repeat;
-	width: 180px;
-	height: 180px;
-	text-indent: -9999px;
-	overflow: hidden;
 }
 
 .tit_pic em {
