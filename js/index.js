@@ -124,8 +124,3 @@ $("#cases>ul>li>img").lazyload({
 	effect: "fadeIn",
 	failurelimit: 10
 });
-$("#gotop").click(function() {
-	$('body,html').animate({
-		scrollTop: 0
-	}, 500);
-})
